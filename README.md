@@ -14,14 +14,14 @@
 推荐使用pip安装（需先打包上传到PyPI）：
 
 ```bash
-pip install extract-apidoc
+pip install apidoc2
 ```
 
 或本地安装：
 
 ```bash
 git clone <your_repo_url>
-cd extract_apidoc
+cd apidoc2
 pip install .
 ```
 
@@ -30,7 +30,7 @@ pip install .
 ### 基本用法
 
 ```bash
-python3 extract_apidoc.py -r <git仓库地址> -v1 <当前版本号> [-v2 <对比版本号>] [-o <输出文件名>]
+python3 apidoc2.py -r <git仓库地址> -v1 <当前版本号> [-v2 <对比版本号>] [-o <输出文件名>]
 ```
 
 ### 参数说明

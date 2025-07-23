@@ -44,12 +44,12 @@ apidoc2 -r <git仓库地址> -v1 <当前版本号> [-v2 <对比版本号>] [-o <
 
 1. 只提取当前版本API文档：
    ```bash
-   python3 extract_apidoc.py -r https://your.git.repo/project.git -v1 master
+   apidoc2 -r https://your.git.repo/project.git -v1 master
    ```
 2. 对比两个版本API文档差异：
 
    ```bash
-   python3 extract_apidoc.py -r https://your.git.repo/project.git -v1 master -v2 develop
+   apidoc2 -r https://your.git.repo/project.git -v1 master -v2 develop
    ```
 
 ### 依赖

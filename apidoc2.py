@@ -17,7 +17,7 @@ def is_java_file(filename):
     return filename.lower().endswith('.java')
 
 def process_api_version(apidoc_lines, version='master'):
-    """处理API文档的版本号
+    """处理API文档的版本号，#修改下描述
     
     Args:
         apidoc_lines: API文档行列表

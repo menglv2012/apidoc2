@@ -30,7 +30,7 @@ pip install .
 ### 基本用法
 
 ```bash
-python3 apidoc2.py -r <git仓库地址> -v1 <当前版本号> [-v2 <对比版本号>] [-o <输出文件名>]
+apidoc2 -r <git仓库地址> -v1 <当前版本号> [-v2 <对比版本号>] [-o <输出文件名>]
 ```
 
 ### 参数说明
@@ -47,6 +47,7 @@ python3 apidoc2.py -r <git仓库地址> -v1 <当前版本号> [-v2 <对比版本
    python3 extract_apidoc.py -r https://your.git.repo/project.git -v1 master
    ```
 2. 对比两个版本API文档差异：
+
    ```bash
    python3 extract_apidoc.py -r https://your.git.repo/project.git -v1 master -v2 develop
    ```

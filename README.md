@@ -2,6 +2,7 @@
 
 用于从Java项目中批量提取ApiDoc注解并生成API文档的Python工具，
 支持多版本对比和自动生成apidoc文档。
+仅仅适用于使用apidoc项目
 
 ## 功能简介
 

@@ -452,8 +452,7 @@ def main():
     parser.add_argument('-o','--output', type=str, required=False, default="output", help='apidoc输出文件目录')
     args = parser.parse_args()
     
-     # 在main()之前执行克隆
-    #repo_url = "http://gitlab-code.howbuy.pa/ftx/ftx-order.git"
+
     repo_url = args.repourl
     app_name = repo_url.split('/')[-1].replace('.git', '')
     generate_apidoc_json(app_name,args.version1)
